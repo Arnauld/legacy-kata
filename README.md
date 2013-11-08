@@ -27,3 +27,8 @@ Tips
 - You can split Dao into production and Stub implementation with interface
 - Add constructors to inject DaoStub
 
+Maven tips
+----------
+- you can install jar with the following command:
+mvn install:install-file -Dfile=libs/company-api-1.0.jar -DgroupId=fr.arolla.jam -DartifactId=legacy-kata-dependency -Dpackaging=jar -Dversion=1.0
+
