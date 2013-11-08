@@ -30,5 +30,6 @@ Tips
 Maven tips
 ----------
 - you can install jar with the following command:
+
 mvn install:install-file -Dfile=libs/company-api-1.0.jar -DgroupId=fr.arolla.jam -DartifactId=legacy-kata-dependency -Dpackaging=jar -Dversion=1.0
 
