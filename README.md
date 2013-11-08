@@ -21,5 +21,9 @@ You're given this code base with the following instructions:
 - BUG: when the user enters a too long sentence in the input, then the application closes
 - ENHANCEMENT: we need to evolve the dates comparison: facts with the same days (and month) on different years must be considered equals
 
-
+Tips
+----
+- Start to test manager.get()  : check that get("Mort elvis") return "Mort d'Elvis Presley"
+- You can split Dao into production and Stub implementation with interface
+- Add constructors to inject DaoStub
 
